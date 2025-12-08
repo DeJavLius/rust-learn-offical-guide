@@ -50,7 +50,8 @@ fn main() {
         let tup: (i32, f64, u8) = (500, 6.4, 1);
         let (x, y, z) = tup;
 
-        println!("The value of tup: (i32, f64, u8) : ({x}, {y}, {z})"); // tup.0 방식으로 출력 시 string 변환 안됨
+        // tup.0 방식으로 출력 시 string 변환 안됨
+        println!("The value of tup: (i32, f64, u8) : ({x}, {y}, {z})");
 
         let five_hundred = tup.0;
         let six_point_four = tup.1;
